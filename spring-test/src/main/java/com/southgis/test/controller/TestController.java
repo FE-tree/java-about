@@ -10,11 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @Author : Feng Haobin
- * @Date: 2025/7/24 15:47
- * @Description:
- */
 @RestController
 public class TestController {
     @GetMapping("/run")
