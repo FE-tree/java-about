@@ -44,4 +44,12 @@ public class RequestController {
 
         return response;
     }
+
+    @RequestMapping("/other")
+    public String requestOther() {
+        String response = sendRequest("https://api.juejin.cn/tag_api/v1/query_item_categories?item_type=11&aid=2608&uuid=7524614100069336618&spider=0");
+        System.out.println("Returned Response: " + response);
+
+        return response;
+    }
 }

@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="TestApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+  <configuration default="false" name="SpringTestApplication" type="Application" factoryName="Application">
     <option name="MAIN_CLASS_NAME" value="com.southgis.test.TestApplication" />
     <module name="spring-test" />
     <extension name="coverage">
