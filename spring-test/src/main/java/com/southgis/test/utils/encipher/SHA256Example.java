@@ -1,4 +1,4 @@
-package com.southgis.test.encipher;
+package com.southgis.test.utils.encipher;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;

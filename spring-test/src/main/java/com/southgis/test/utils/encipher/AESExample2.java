@@ -1,4 +1,4 @@
-package com.southgis.test.encipher;
+package com.southgis.test.utils.encipher;
 
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
