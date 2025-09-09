@@ -1,4 +1,4 @@
-package com.southgis.test.utils;
+package com.southgis.test.model;
 
 public class ApiResponse<T> {
     private int code;
