@@ -1,5 +1,9 @@
 package com.southgis.test.utils;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.Objects;
@@ -60,5 +64,47 @@ public class JsonFileReader {
             inputStream = ClassLoader.getSystemResourceAsStream(filePath);
         }
         return inputStream;
+    }
+
+    /**
+     * 读取 JSON 文件并转换为指定类型的对象 (需要 Jackson 或 Gson)
+     *
+     * @param filePath 文件路径
+     * @param valueType 目标类型
+     * @param <T> 泛型类型
+     * @return 转换后的对象
+     * @throws IOException 文件读取异常
+     */
+
+    // 使用 Jackson 的实现
+    public static <T> T readAsObject(String filePath, Class<T> valueType) throws IOException {
+        String json = readFromClasspath(filePath);
+        ObjectMapper mapper = new ObjectMapper();
+        return mapper.readValue(json, valueType);
+    }
+    /*
+    // 使用 Gson 的实现
+    public static <T> T readAsObject(String filePath, Class<T> valueType) {
+        String json = readFromClasspath(filePath);
+        Gson gson = new Gson();
+        return gson.fromJson(json, valueType);
+    }
+    */
+
+    public static JsonNode stringToJson(String jsonString) throws IOException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        return objectMapper.readTree(jsonString);
+    }
+
+    // 方法1：Java 对象 → JSON String
+    public static String objectToJsonString(Object obj) throws JsonProcessingException {
+        ObjectMapper mapper = new ObjectMapper();
+        return mapper.writeValueAsString(obj);
+    }
+
+    // 方法2：JsonNode → JSON String
+    public static String jsonNodeToString(JsonNode jsonNode) throws JsonProcessingException {
+        ObjectMapper mapper = new ObjectMapper();
+        return mapper.writeValueAsString(jsonNode);
     }
 }

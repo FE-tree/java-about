@@ -3,9 +3,16 @@
   "message": "获取当前用户信息成功",
   "success": true,
   "data": {
-    "username": "tree",
-    "gender": "0",
-    "phone": "12345678901",
-    "email": "a@b.com"
+    "user": {
+      "username": "tree",
+      "gender": "0",
+      "phone": "12345678901",
+      "email": "a@b.com"
+    },
+    "loginSource": "public",
+    "isVisitor": true,
+    "roles": [
+      "visitor"
+    ]
   }
 }
