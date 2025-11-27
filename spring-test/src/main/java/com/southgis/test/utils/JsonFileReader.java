@@ -23,7 +23,7 @@ public class JsonFileReader {
      */
     public static String readFromClasspath(String filePath) throws IOException {
         if(Objects.equals(filePath, "")) {
-            filePath = "static/userResult.json";
+            filePath = "static/userData.json";
         }
         try (InputStream inputStream = getResourceAsStream(filePath)) {
             if (inputStream == null) {

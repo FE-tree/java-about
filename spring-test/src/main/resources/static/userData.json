@@ -1,0 +1,128 @@
+{
+    "code": 200,
+    "message": "获取当前用户信息成功",
+    "success": true,
+    "data": {
+        "username": "visitor7c95d1f456684b5994ad06a8c00daaa2",
+        "user": {
+            "id": "1610902542599131137",
+            "username": "visitor7c95d1f456684b5994ad06a8c00daaa2",
+            "name": "广东中源勘测规划设计有限公司",
+            "type": "DEV_OPS",
+            "gender": "0",
+            "creditType": "5",
+            "creditNo": "91440604MA52YDE40Q",
+            "source": "UIA",
+            "phone": "13432031936",
+            "email": "-1",
+            "duty": null,
+            "avatar": "",
+            "leader": null,
+            "tifUserId": "7c95d1f456684b5994ad06a8c00daaa2",
+            "unit": {
+                "id": "1644602253645053953",
+                "name": "数字广东网络建设有限公司",
+                "code": "digitalgd",
+                "area": "440000",
+                "level": "1",
+                "usci": null
+            },
+            "depts": [],
+            "roles": [
+                {
+                    "id": "20240227000002",
+                    "systemList": [
+                        {
+                            "id": "1743583595552403457",
+                            "name": "广东省自然资源市场与开发利用监测监管子系统（云专区）",
+                            "code": "gdjcjg_web",
+                            "area": "440000"
+                        }
+                    ],
+                    "category": "BUSINESS",
+                    "type": "BUSINESS",
+                    "name": "广东省自然资源市场与开发利用监测子系统",
+                    "code": "YW00187",
+                    "level": "1",
+                    "area": "",
+                    "dataPerms": null,
+                    "dataConfig": "none"
+                },
+                {
+                    "id": "1610901676567629825",
+                    "systemList": [],
+                    "category": "GOVERNMENT",
+                    "type": "PLATFORM",
+                    "name": "访客",
+                    "code": "visitor",
+                    "level": "1",
+                    "area": "440000",
+                    "dataPerms": null,
+                    "dataConfig": "none"
+                }
+            ],
+            "onLoan": null,
+            "tempPost": null,
+            "onSite": null,
+            "expireTime": "2024-10-09T16:53:45",
+            "accountExpireTime": "9999-12-30T00:00:00",
+            "onSiteList": null,
+            "tempPostList": null,
+            "onLoanList": null,
+            "userobj": {
+                "uid": "Gdzy2019",
+                "idcardnumber": "91440604MA52YDE40Q",
+                "extproperties": [
+                    "legal_person=曾良",
+                    "ent_type=-1",
+                    "user_typeext=2",
+                    "origin=gdbs",
+                    "comm_code=-1",
+                    "card_type_two=-1",
+                    "link_person_code=441481198509105710",
+                    "uversion=25.0",
+                    "legal_code=441481198509105710",
+                    "landline=-1",
+                    "cert_data=MIICwTCCAmagAwIBAgIPB4d4lSWRdQhAMhhSVkEWMAoGCCqBHM9VAYN1MGAxCzAJBgNVBAYTAkNOMTIwMAYDVQQKDClHVUFORyBET05HIENFUlRJRklDQVRFIEFVVEhPUklUWSBDTy4sTFRELjEdMBsGA1UEAwwUR0RDQSBUcnVzdEFVVEggRTEgQ0EwHhcNMjMwNjA3MTYwMDAwWhcNMjYxMDE4MTU1OTU5WjCBsDELMAkGA1UEBhMCQ04xEjAQBgNVBAgMCeW5v+S4nOecgTESMBAGA1UEBwwJ5L2b5bGx5biCMTMwMQYDVQQKDCrlub/kuJzkuK3mupDli5jmtYvop4TliJLorr7orqHmnInpmZDlhazlj7gxDzANBgNVBAsMBuabvuiJrzEzMDEGA1UEAwwq5bm/5Lic5Lit5rqQ5YuY5rWL6KeE5YiS6K6+6K6h5pyJ6ZmQ5YWs5Y+4MFkwEwYHKoZIzj0CAQYIKoEcz1UBgi0DQgAEHWImd9jOihxjlus181Xrkv6fVWpWsjamroKt1dr5Fn04481uMwtU6ICTSV1cPerWHYct+TNp6UH6+JL+cRbv/aOBsTCBrjAdBgNVHQ4EFgQUXkY+iH1AXTWdTUn+5c7dO454mTEwCwYDVR0PBAQDAgbAMB8GA1UdIwQYMBaAFBGP4/05GR2cGR9JN26sRIxV6hS9MB0GBSpWFQEDBBQMEjA3ODE0MDU1ODcyMTM3MjE2MDAhBgkqVgsHg8zqIwEEFAwSOTE0NDA2MDRNQTUyWURFNDBRMB0GBSpWCwcDBBQMEjkxNDQwNjA0TUE1MllERTQwUTAKBggqgRzPVQGDdQNJADBGAiEAoTHPGL94v4vUCXIgJPO3ASIek55tkjAmMssVnpmcffkCIQDnmHh5lymwZsuxQOvPs+vUzlcOuFwc+dXQzMB1ced52w==",
+                    "accout_type=2",
+                    "cert_notafter=-1",
+                    "card_type_three_num=-1",
+                    "cert_notbefore=-1",
+                    "address=广东省佛山市禅城区石湾镇街道绿景西路3号13号商业楼5层自编509号（住所申报）",
+                    "card_type_two_num=-1",
+                    "account_uid=-1",
+                    "area=guangzhou",
+                    "link_person_type=10",
+                    "card_type_three=-1",
+                    "legal_id_type=10",
+                    "cert_ca=-1",
+                    "card_type_one_num=-1",
+                    "unit_type=-1",
+                    "tax_code=-1",
+                    "card_type_one=-1"
+                ],
+                "telephonenumber": "13432031936",
+                "link_person_name": "曾良",
+                "usertype": "2",
+                "useridcode": "7c95d1f456684b5994ad06a8c00daaa2",
+                "cn": "广东中源勘测规划设计有限公司",
+                "idcardtype": "49",
+                "creditable_level_of_account": "L3"
+            },
+            "pareobj": {},
+            "childobj": {},
+            "units": null
+        },
+        "loginSource": "public",
+        "isGuest": true,
+        "isVisitor": true,
+        "functionPerms": null,
+        "dataPerms": [],
+        "joinUserIds": null,
+        "roles": [
+            "YW00187",
+            "visitor"
+        ]
+    },
+    "timestamp": 1752482108403
+}
